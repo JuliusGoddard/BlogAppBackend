@@ -11,7 +11,6 @@ const regeneratorRuntime = require("regenerator-runtime");
 const usersRouter = require("./controllers/user");
 const loginRouter = require("./controllers/login");
 const testingRouter = require("./controllers/testing");
-const config = require("./utils/config");
 
 logger.info("connecting to", config.MONGODB_URI);
 
